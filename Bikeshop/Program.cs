@@ -28,7 +28,7 @@ namespace Bikeshop
 
                 catch (Exception e)
                 {
-
+                    Console.WriteLine(e);
                 }
             }
             host.Run();

@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Bikeshop.Controllers
 {
+    [Authorize]
     public class ShoppingBagController : Controller
     {
         private readonly IShoppingBagRepository _shoppingBagRepository;
